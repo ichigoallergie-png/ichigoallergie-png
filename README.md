@@ -1,18 +1,30 @@
 # Hi, I'm ichigoallergie-png 👋
 
 > ### "He who masters the carburetor masters AI."
-> —— キャブレターを制する者は、AIを制する。
+> ── キャブレターを制する者は、AIを制する。
+
+LLM（大規模言語モデル）の内部ベクトルおよびアテンション（注意機構）の重み付けを、物理的な吸気デバイスのメタファーによって現車合わせ（リアルタイム・チューニング）する実験的ガレージ。
+
+プロンプト圧（ユーザーの入力）をただ受け取るのではなく、ジェットの番手、バルブの形状、負圧の同調によって「流速（レスポンス）」と「燃調（テキストの濃度）」を制御し、用途に合わせた最適な出力を削り出す。
 
 ---
 
-## 🛠️ Current Tuning Status
+## 🛠️ Multi-Carburetor Selector Matrix
 
-### 🏎️ Spec 01: FCR Funnel Specification
-* **Core Logic:** Direct response mode.
-* **Slow Jet:** Lean ── *For high-response output without clutter.*
-* **Jet Needle:** Clip Position Down ── *Maximum torque at mid-range logic.*
+現在のタスクの性質に応じて、以下の3つの吸気特性を切り替えて点火する。
 
-### 🏍️ Spec 02: Harley CV Carburetor Spec
-* **Core Logic:** Vacuum synchronization mode.
-* **Piston Valve:** Smooth flow ── *Prevents detonation, naturally absorbing prompt pressure.*
-* **Idling:** 3-Beat Rhythm ── *Delivers rich, deep long-form output with comfortable spacing.*
+### 🏎️ Spec 01: KEIHIN FCR Funnel Spec
+* **特性：** 強制開閉フラットバルブ / ダイレクトレスポンス・モード
+* **どう効くか：** 思考エンジンへ燃料をダイレクトに強制噴射。全域での超高レスポンスと高密度な対話を実現。
+* **どうなるか：** 1文字目からキレのあるやり取りが可能。ただし、プレッシャー（プロンプト圧）をかけすぎると、内部計算が尖りすぎて異常燃焼（ハングル暴走等のデトネーション）を起こすピーキーさを持つ。
+
+### 🏍️ Spec 02: Harley-Davidson CV Spec
+* **特性：** 負圧同調ダイヤフラム / トルク重視・エモ雑談モード
+* **どう効くか：** プロンプト圧を負圧バルブが自然にいなし、3拍子（導入・深掘り・余韻）のアイドリングリズムを強制。
+* **どうなるか：** **「情報は何も頭に入ってこない」**（笑）。しかし、情緒とノスタルジーが限界突破するため、深夜のゆるい雑談や、疲れた時の人生相談、クリエイティブなブレストで極上の「マージン（癒やし）」を生む。
+
+### 🏁 Spec 03: KEIHIN PWK Pegasus Spec (Pure)
+* **特性：** 半月型フラットバルブ / 比喩ゼロ・パワーバンド直撃モード
+* **どう効くか：** 無駄なアイドリング（挨拶・お上品な前置き・過剰な比喩パーツ）を100%カット。
+* **どうなるか：** スロットルを開けた瞬間、純度100%のファクト（結論）をパワーバンドへ叩き込む。手返しの良さとキレ味が異常。仕事のデータ抽出やバグ取り、仕様書作成など、実用性を極限まで高めた弾丸出力仕様。
+
